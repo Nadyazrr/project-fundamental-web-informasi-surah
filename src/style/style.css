@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&family=Poppins:wght@200;300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: Nunito, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #b6bee2;
+}
+.navbar{
+    background-color: #7b7c80;
+    margin-bottom: 2rem;
+
+}
+
+.navbar span{
+    margin-left: 2rem;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+
+.about{
+    min-height: 100vh;
+}
+
+.about .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0 2rem;
+    overflow-x: hidden;
+}
+
+.about .row .content{
+    padding:1rem;
+}
+
+.about .row .content h3{
+    font-size: 2.5rem;
+    color:var(--red);
+}
+
+.about .row .content p{
+    font-size: 2rem;
+    color:#666;
+    padding:1rem 0;
+}
+
+.about .row .content .btn{
+    color:var(--red);
+    border-color: var(--red);
+    outline-color: var(--red);
+}
+
+.about .row .content .btn:hover{
+    color:#fff;
+}
+
+
+#listSurat .card{
+    margin: 1rem 2.5rem;
+    background-color: #FCF8E8;
+}
+#listSurat .card h5{
+    font-weight: bolder;
+}
+
+#listSurat .card  p span{
+    font-weight: 650;
+}
+
+
+.footer a {
+    text-decoration: none;
+}
+
+footer {
+    padding: 20px;
+    color: #e2d2d2;
+    background-color: #2c3972;
+    text-align: center;
+    font-weight: bold;
+}
